@@ -1,16 +1,10 @@
 # singleton_pattern_dart
 
-A new Flutter project.
+Singleton is a creational design pattern that ensures that a class has only one
+instance and provides an easy global access to that instance.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## The main tenets of this pattern are:
+- Ensure that the class has only a single instance.
+- Provide easy global access to this instance.
+- Control how it is instantiated.
+- Any critical region must be entered serially.
